@@ -1,1 +1,2 @@
-# Bootsrap-Portfolio
+# Bootstrap-Portfolio
+Let's Bootstrap this portfolio up!
