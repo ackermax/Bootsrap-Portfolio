@@ -6,67 +6,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
-    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/d4deedc9a4.js"></script>
+    <link rel="stylesheet" href="assets/css/styleB.css">
 </head>
 
-<body>
-    <div id="head-bar">
-        <div id="head-width">
-            <header>
-                <h1>Max Ackerman</h1>
-            </header>
-            <nav>
-                <a href="index.html">About</a> |
-                <a href="portfolio.html">Portfolio</a> |
-                <a href="contact.html">Contact</a>
-            </nav>
+<body background="assets\images\escheresque.png">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand bg-info" href="index.html">Max Ackerman</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-    </div>
-    <div id="site-body">
-        <aside>
-            <h3>Connect with Me</h3>
-            <br>
-            <a href="https://github.com/ackermax" target="blank">
-                <img src="assets/images/github.png" alt="Github">
-            </a>
-            &nbsp;
-            <a href="https://www.linkedin.com/in/ackermax" target="blank">
-                <img src="assets/images/linkedin.png" alt="LinkedIn">
-            </a>
-            &nbsp;
-            <a href="https://www.instagram.com/ackermax/" target="blank">
-                <img src="assets/images/instagram.png" alt="">
-            </a>
-        </aside>
-        <article>
-            <h2>Portfolio</h2>
-            <br>
-            <div id="outer">
-                <div class="inner" id="dragon">
-                    <p>Project Dragon</p>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-12">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-header">
+                            <h1 class="text-info">Portfolio</h1>
+                        </div>
+                    </div>
                 </div>
-                <div class="inner" id="pandora">
-                    <p>Project Pandora</p>
+                <div class="row">
+                    <div class="col-md-12 outer">
+                        <div class="inner" id="dragon">
+                            <p>Project Dragon</p>
+                        </div>
+                        <div class="inner" id="pandora">
+                            <p>Project Pandora</p>
+                        </div>
+                        <div class="inner" id="portrait">
+                            <p>Project Portrait</p>
+                        </div>
+                        <div class="inner" id="rivers">
+                            <p>Project Rivers</p>
+                        </div>
+                        <div class="inner" id="skull">
+                            <p>Project Skull</p>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="inner" id="portrait">
-                    <p>Project Portrait</p>
+            </div>
+
+            <div class="col-md-4 col-md-offset-1 col-sm-12">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-header">
+                            <h1 class="text-info">Connect With Me</h1>
+                        </div>
+                    </div>
                 </div>
-                <div class="inner" id="rivers">
-                    <p>Project Rivers</p>
-                </div>
-                <div class="inner" id="skull">
-                    <p>Project Skull</p>
+                <div class="row">
+                    <div class="col-md-12 text-center socialmedia">
+                        <a href="https://github.com/ackermax" target="blank">
+                            <i class="fa fa-github-square fa-4x" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ackermax">
+                            <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com/ackermax/" target="blank">
+                            <i class="fa fa-instagram fa-4x" aria-hidden="true"></i>
+                        </a>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
                 </div>
 
             </div>
 
+            <!-- end of row 1 -->
+        </div>
     </div>
-    </article>
-
-    <footer>
-        <br> &copy; Copyright 2017 Max Ackerman
-    </footer>
+    <div class="footer navbar-fixed-bottom text-center text-muted">&copy; Copyright 2017 Max Ackerman </div>
 </body>
+
 
 </html>
